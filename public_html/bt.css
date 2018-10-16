@@ -4,22 +4,24 @@
     padding: 30px;
 }
 
-#banner, #banner1{
+#banner, #banner1, #banner2{
     background-attachment: fixed;
     background-position: top;
     width: auto;
     height: 900px;
     background-size: cover;
 }
+#banner{
+    background-image: url(asset/bg/india.jpg);
+}
 
 #banner1{
-    background-image: url(asset/bg/cambodia.jpg);
+    background-image: url(asset/bg/nepal.jpg);
 }
 
-#banner{
-    background-image: url(asset/bg/road.jpg);
+#banner2{
+    background-image: url(asset/bg/vietnam.jpg);
 }
-
 
 /*hover event*/
 .detail{
@@ -40,4 +42,8 @@
 /*font*/
 #main-font{
     font-family:Microsoft JhengHei;
+    color: darkgoldenrod;
+    background-color: azure;
+    padding-left: 40px;
+    padding-right: 40px;
 }
