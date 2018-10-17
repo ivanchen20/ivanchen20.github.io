@@ -1,14 +1,14 @@
 #content{
     background-color: lightblue;
-    height: 400px;
-    padding: 30px;
+    height: auto;
+    padding: 50px;
 }
 
 #banner, #banner1, #banner2{
     background-attachment: fixed;
     background-position: top;
     width: auto;
-    height: 900px;
+    height: 100vh;
     background-size: cover;
 }
 #banner{
@@ -34,8 +34,7 @@
 .detail:hover{
     transform: scale(1.1);
     opacity: 0.95;
-    border-color: black;
-    border-width: 10px;
+    border: 2px solid gray;
     z-index: 5;
 }
 
