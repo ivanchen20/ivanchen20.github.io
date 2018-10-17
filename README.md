@@ -3,10 +3,10 @@
 ## History
 
 ## Projects
-
-```markdown
-
 [My bootstrap](/public_html/)
+
+## Skills
+```markdown
 
 ```
 
