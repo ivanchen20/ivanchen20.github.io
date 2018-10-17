@@ -12,15 +12,15 @@
     background-size: cover;
 }
 #banner{
-    background-image: url(asset/bg/india.jpg);
+    background-image: url(asset/bg/Cambodia4x3.JPG);
 }
 
 #banner1{
-    background-image: url(asset/bg/nepal.jpg);
+    background-image: url(asset/bg/DSC_0238.JPG);
 }
 
 #banner2{
-    background-image: url(asset/bg/vietnam.jpg);
+    background-image: url(asset/bg/MBS.JPG);
 }
 
 /*hover event*/
