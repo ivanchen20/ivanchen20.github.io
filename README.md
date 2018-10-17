@@ -3,11 +3,11 @@
 ## History
 
 ## Projects
-- Personal Websites for Practicing
-> [My First bootstrap](/public_html/)
+> Personal Websites for Practicing
+- [My First bootstrap](/public_html/)
 
-- Data Analysis
-> [Web Crawling]()
+> Data Analysis
+- [Web Crawling]()
 
 ## Skills
 
