@@ -10,6 +10,7 @@
     width: auto;
     height: 100vh;
     background-size: cover;
+    -webkit-background-size: cover;
 }
 #banner{
     background-image: url(asset/bg/Cambodia4x3.JPG);
