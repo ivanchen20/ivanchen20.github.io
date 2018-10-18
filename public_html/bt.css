@@ -11,7 +11,7 @@ html{
 #banner, #banner1, #banner2{
     background-attachment: fixed;
     background-position: top;
-    width: auto;
+    width: 100wh;
     height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size:cover;
