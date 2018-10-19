@@ -5,9 +5,10 @@
 ## Projects
 > Personal Websites for Practicing
 - [My First bootstrap](/public_html/)
+- [Learn Web Design](/LearningWebTech/)
 
 > Data Analysis
-- [Web Crawling]()
+- [Web Crawling](/LearningR/)
 
 ## Skills
 
@@ -24,10 +25,10 @@ SAS
 ExcelVBA
 
 ---Software Implementation---
-var Data_Visualization = {"Ucinet", "Gaphi", "Tableau"}
-Data_Science <- c("Chrome Dev-tools", "R studio", "Datacamp")
-<div class="Web_Design"><p> CodePen Bracket Bootstrap </p></div>
-{"App Design":["Xcode","Android Studio","Arduino Create"]}
+Data_Visualization = "Ucinet", "Gaphi", "Tableau"
+Data_Science = "Chrome Dev-tools", "R studio", "Datacamp"
+Web_Design = "CodePen", "Bracket", "Bootstrap"
+App Design = "Xcode", "Android Studio", "Arduino Create"
 
 ```
 
