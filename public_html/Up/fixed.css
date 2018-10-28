@@ -29,13 +29,21 @@
 }
 
 
-.row img{
+#sky .row img,
+#fly .row img{
     position: absolute;
     width: 30%;
     height: auto;
     top: 20%;
     left: 40%;
     transform: rotate(330deg);
+}
+
+#city .row img{
+    position: absolute;
+    height: auto;
+    margin-top: 100px;
+    transform: scale(0.5);
 }
 
 footer {
@@ -54,12 +62,43 @@ footer {
     background-size:cover;
 }
 #up-right{
-    background: #000 url("img/naruto.jpg") right top;
+/*    background: #000 url("img/naruto.jpg") right top;*/
     min-height: 1000px;
     background-attachment: fixed;
 }
 
 #fly{
-    background-color: coral;
+    background-color: skyblue;
 }
 
+#city{
+    background: #000 url("img/city.png") bottom;
+    z-index=-1;
+    background-attachment: fixed;
+    background-position: top;
+    background-size:cover;
+    /*    min-height: 1000px;*/
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 0px; 
+}
+
+#city .row:{
+    background: #000 url("img/view.png") center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+#city .row div:first-child{
+/*    position:relative;*/
+    z-index: 1;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height:100px;
+    bottom: 10%;
+}
+
+#city .row div:last-child{
+    min-height:1000px;
+}
