@@ -1,11 +1,11 @@
 
 .jumbotron{
     margin-bottom: 0px;
-    background-color: coral;
-    color: white;
+    background-color: black;
+    color: blanchedalmond;
 }
 #sky{
-    background: #000 url("img/sky.jpg") center top;
+    background: #000 url("img/hand.jpeg") center right;
     z-index=-2;
     background-attachment: fixed;
     background-position: top;
@@ -24,42 +24,42 @@
 #sky .row div:last-child{
     z-index: 2;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.25);
     min-height:1000px;
 }
 
 
-#sky img{
+.row img{
     position: absolute;
-    width: 40%;
+    width: 30%;
     height: auto;
-    bottom: 20%;
+    top: 20%;
     left: 40%;
+    transform: rotate(330deg);
 }
 
 footer {
-    background-color: coral;
+    background-color: darksalmon;
     color: white;
     min-height: 800px;
     
 }
 
 
-#naruto-left{
-/*    background: #000 url("https://i.ytimg.com/vi/EJyNH-r_7Ek/maxresdefault.jpg") left top;*/
-/*    background-position: -200% 0%;*/
-    background: #000 url("img/naruto.jpg") left top;
-    min-height: 800px;
+#up-left{
+    background: #000 url("img/second.jpg") right top;
+    min-height: 1000px;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    
+    background-size:cover;
 }
-#naruto-right{
+#up-right{
     background: #000 url("img/naruto.jpg") right top;
-    min-height: 800px;
+    min-height: 1000px;
     background-attachment: fixed;
 }
 
-#naruto{
+#fly{
     background-color: coral;
 }
 
