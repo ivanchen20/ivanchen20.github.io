@@ -4,8 +4,9 @@
 
 ## Projects
 > Personal Websites for Practicing
-- [My First bootstrap](/public_html/)
 - [Learn Web Design](/LearningWebTech/)
+- [My First bootstrap](/public_html/)
+- [Try Storytelling](/public_html/Up/)
 
 > Data Analysis
 - [Web Crawling](/Learning-R/)
