@@ -8,7 +8,7 @@
 - [Learn Web Design](/LearningWebTech/)
 
 > Data Analysis
-- [Web Crawling](/LearningR/)
+- [Web Crawling](/Learning-R/)
 
 ## Skills
 
