@@ -10,6 +10,7 @@
 
 > Data Analysis
 - [Web Crawling](/Learning-R/)
+- [Reddit Crawling](/Learning-R/first successful automatic crawling.png)
 
 ## Skills
 
