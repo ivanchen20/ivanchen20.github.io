@@ -18,7 +18,7 @@ h1 {
 #banner,
 #banner1,
 #banner2 {
-    background-position: top;
+    background-position: bottom; /*alignment when adjust screensize*/
     width: 100wh;
     height: 100vh;
     -webkit-background-size: cover;
