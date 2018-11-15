@@ -1,43 +1,61 @@
-html{
+html {
     height: 100%;
 }
 
-#content{
+#content {
     background-color: lightblue;
     height: auto;
     padding: 50px;
 }
 
-#banner, #banner1, #banner2{
+#banner,
+#banner1,
+#banner2 {
     background-attachment: fixed;
     background-position: top;
     width: 100wh;
     height: 100vh;
     -webkit-background-size: cover;
-    -moz-background-size:cover;
+    -moz-background-size: cover;
     background-size: cover;
 }
-#banner{
+
+#banner {
     background-image: url(asset/bg/Cambodia4x3.JPG);
 }
 
-#banner1{
+#banner1 {
     background-image: url(asset/bg/DSC_0238.JPG);
 }
 
-#banner2{
+#banner2 {
     background-image: url(asset/bg/MBS.JPG);
 }
 
+@media only screen and (min-device-width: 400px) {
+    #banner {
+        background-image: url(asset/bg/Cambodia-sm.JPG);
+    }
+
+    #banner1 {
+        background-image: url(asset/bg/DSC_0238-sm.JPG);
+    }
+
+    #banner2 {
+        background-image: url(asset/bg/MBS-sm.JPG);
+    }
+}
+
+
 /*hover event*/
-.detail{
+.detail {
     transition: all 1s;
     -webkit-transition: opacity scale border 3s 1s ease-in-out;
     padding: 5px;
     opacity: 0.7;
 }
 
-.detail:hover{
+.detail:hover {
     transform: scale(1.1);
     opacity: 0.95;
     border: 2px solid gray;
@@ -45,8 +63,8 @@ html{
 }
 
 /*font*/
-#main-font{
-    font-family:Microsoft JhengHei;
+#main-font {
+    font-family: Microsoft JhengHei;
     color: darkgoldenrod;
     background-color: azure;
     padding-left: 40px;
