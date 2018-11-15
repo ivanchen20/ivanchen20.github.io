@@ -21,28 +21,28 @@ html {
 }
 
 #banner {
-    background-image: url(asset/bg/Cambodia4x3.JPG);
+    background-image: url(asset/bg/Cambodia-sm.JPG);
 }
 
 #banner1 {
-    background-image: url(asset/bg/DSC_0238.JPG);
+    background-image: url(asset/bg/DSC_0238-sm.JPG);
 }
 
 #banner2 {
-    background-image: url(asset/bg/MBS.JPG);
+    background-image: url(asset/bg/MBS-sm.JPG);
 }
 
-@media only screen and (min-device-width: 400px) {
+@media only screen and (min-device-width: 768px) {
     #banner {
-        background-image: url(asset/bg/Cambodia-sm.JPG);
+        background-image: url(asset/bg/Cambodia4x3.JPG);
     }
 
     #banner1 {
-        background-image: url(asset/bg/DSC_0238-sm.JPG);
+        background-image: url(asset/bg/DSC_0238.JPG);
     }
 
     #banner2 {
-        background-image: url(asset/bg/MBS-sm.JPG);
+        background-image: url(asset/bg/MBS.JPG);
     }
 }
 
