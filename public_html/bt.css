@@ -11,7 +11,6 @@ html {
 #banner,
 #banner1,
 #banner2 {
-    background-attachment: fixed;
     background-position: top;
     width: 100wh;
     height: 100vh;
@@ -34,7 +33,7 @@ html {
 
 @media only screen and (min-device-width: 768px) {
     #banner, #banner1, #banner2{
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     #banner {
         background-image: url(asset/bg/Cambodia4x3.JPG);
